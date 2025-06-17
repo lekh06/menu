@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 25;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  background-color: rgb(197, 197, 197);
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  z-index: 10;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+.cardhome{
+  display:grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.cardroom{
+  display: grid;
+  gap: 25px;
+}
+.card {
+      background-color: white;
+      width: 200px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .card:hover{
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+       size: 2cm;
+       align-items: end;
+    }
+    .card {
+      background-color:white;
+      color:white;
+    }
+    section a{
+      color:grey;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    section a:hover {
+      color: #000000;
+    }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">ARISE</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="https://AriseLekh.github.io/home/">Home</a></li>
+        <li><a href="https://lekh06.github.io/singin/">sing  in</a></li>
+        <li><a href="https://lekh06.github.io/contect/">Contact us</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="cardhome">
+  <div class="cardroom">
+    <div></div>
+    <div class="card">
+      <section>
+          <a href="https://lekh06.github.io/weather/">weather</a>
+      </section>
+    </div>
+    <div class="card">
+      <section>
+        
+          <a href="https://lekh06.github.io/quiz/">quiz</a>
+        
+      </section>
+    </div>
+  </div>
+  <div class="cardroom">
+    <div class="card">
+      <section>
+        
+          <a href="https://lekh06.github.io/to-do/">to-do app</a>
+        
+      </section>
+    </div>
+    <div class="card">
+      <section>
+        
+          <a href="https://lekh06.github.io/github/">github profile fetcher</a>
+       
+      </section>
+    </div>
+  </div>
+  <div class="cardroom">
+    <div class="card">
+      <section>
+        
+          <a href="https://lekh06.github.io/clock/">clock app</a>
+        
+      </section>
+    </div>
+  </div>
+  </div>
+</body>
+</html> 
